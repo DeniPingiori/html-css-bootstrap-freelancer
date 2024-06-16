@@ -11,6 +11,13 @@
 .col-1 {
         background-color: #4abf9a;
         color: white;
+        flex-basis:calc((100% / 12) * 1);
+}
+
+.col-6 {
+    background-color:#9d3c3c;
+    color: black;
+    flex-basis:calc((100% / 12) * 6);
 }
 .container-md {
   background-color: #4abf9a;
