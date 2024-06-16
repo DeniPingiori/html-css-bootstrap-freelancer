@@ -8,8 +8,28 @@
   background-color: #323233;
   color: white;
 }
-
+.col-1 {
+        background-color: #4abf9a;
+        color: white;
+}
 .container-md {
   background-color: #4abf9a;
   color: white; 
+}
+.text-center {
+    text-align: center;
+}
+.images  {
+    position:relative;
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.images-testimonial {
+    max-width: 300px;
+}
+.images-testimonial img {
+    position: relative;
+    max-width: 30%;
+    border-radius: 50%;
 }
