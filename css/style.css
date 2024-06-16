@@ -1,5 +1,15 @@
-* {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+.box {
+    min-height: 150px;
+    border: 1px solid black;
+    background-color: rgb(57, 56, 56);
+}
+
+.container {
+  background-color: #323233;
+  color: white;
+}
+
+.container-md {
+  background-color: #4abf9a;
+  color: white; 
 }
