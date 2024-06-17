@@ -1,57 +1,38 @@
-.box {
-    min-height: 150px;
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header, 
+footer{
+    background-color: #323234;
+}
+.header-content {
+    background-color:#323233;
     border: 1px solid black;
-    background-color: rgb(57, 56, 56);
+    height: 60px;
 }
 
-.container {
-  background-color: #323233;
-  color: white;
-}
-.col-2 {
-        background-color: #4abf9a;
-        color: white;
-        flex-basis:calc((100% / 12) * 2);
-}
-.col-12 {
-    flex-basis:calc((100% / 12) * 12);
-    background-color:(#4abf9a) ;
-    color:white;
-}
-.col-6 {
-    background-color:#FFFFF;
-    color: black;
-    flex-basis:calc((100% / 12) * 6);
-}
-.container-md {
-  background-color: #4abf9a;
-  color: white; 
+.content {
+    background-color: rgb(164, 95, 181);
+    border: 1px soldi black;
+    height: 150px;
 }
 
-.container-lg {
-    background-color: #ffff;
-    color: rgb(2, 2, 2); 
-  }
-.text-center {
-    text-align: center;
-}
-.images  {
-    position:relative;
-    max-width: 50%;
-    border-radius: 50%;
+.jumbo-content {
+    height:300px;
+    background-color: brown;
+    border: 1px solid black;
 }
 
-.images-testimonial {
-    max-width: 300px;
-}
-.images-testimonial img {
-    position: relative;
-    max-width: 30%;
-    border-radius: 50%;
-}
-
-.btn-green {
+#jumbotron,
+#about-us {
     background-color: #4abf9a;
-    color: #ffff;
-    border-radius: 10%;
 }
+
+.bottom-footer {
+    background-color: #323234;
+}
+
+
