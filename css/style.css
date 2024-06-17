@@ -36,4 +36,6 @@ footer{
     background-color: #323234;
 }
 
-
+.img {
+    position: relative;
+}
